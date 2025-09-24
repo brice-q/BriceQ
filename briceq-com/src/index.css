@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+:root {
+  --color-dark-bg: #232f3b;
+  --color-off-white: #f0f4f8;
+}
+
+@layer utilities {
+  .bg-dark-bg {
+    background-color: var(--color-dark-bg);
+  }
+
+  .text-off-white {
+    color: var(--color-off-white);
+  }
+
+  .border-off-white {
+    border-color: var(--color-off-white);
+  }
+}

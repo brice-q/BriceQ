@@ -1,7 +1,7 @@
 {
   "name": "briceq-com",
   "homepage": "https://briceq.github.io/briceq",
-  "private": true,
+  "private": false,
   "version": "1.5.0",
   "type": "module",
   "scripts": {

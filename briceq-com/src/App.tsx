@@ -1,66 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Modern Projects component with light theme
-const Projects: React.FC = () => {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-6 pt-20">
-      <div className="max-w-4xl mx-auto text-center">
-        {/* Heading */}
-        <div className="animate-fade-in-up delay-200 mb-8">
-        </div>
-        
-        {/* Subtitle */}
-        <div className="animate-fade-in-up delay-500 mb-12">
-          <p className="text-xl text-off-white max-w-2xl mx-auto leading-relaxed mb-4">
-            Explore my portfolio of innovative web applications and creative solutions.
-          </p>
-          <p className="text-lg text-off-white">
-            Each project represents a unique challenge and learning experience.
-          </p>
-        </div>
-        
-        {/* Under Construction Card */}
-        <div className="animate-scale-in delay-700">
-          <div className="bg-dark-bg/80 backdrop-blur-sm border border-off-white/20 shadow-xl rounded-3xl p-12 mb-8">
-            <div className="text-6xl mb-6">🚧</div>
-            <h3 className="text-3xl font-display font-bold text-off-white mb-4">
-              Coming Soon
-            </h3>
-            <p className="text-off-white text-lg mb-6 max-w-lg mx-auto">
-              I'm currently working on some exciting projects that will be showcased here. 
-              Stay tuned for updates!
-            </p>
-            <div className="flex flex-wrap justify-center gap-3 text-sm">
-              <span className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full border border-primary-200">React</span>
-              <span className="bg-accent-100 text-accent-700 px-3 py-1 rounded-full border border-accent-200">TypeScript</span>
-              <span className="bg-success-100 text-success-700 px-3 py-1 rounded-full border border-success-200">Next.js</span>
-              <span className="bg-warning-100 text-warning-700 px-3 py-1 rounded-full border border-warning-200">Node.js</span>
-            </div>
-          </div>
-        </div>
-        
-        {/* Call to Action */}
-        <div className="animate-fade-in-up delay-1000">
-          <p className="text-off-white mb-6">
-            Interested in seeing my work in progress?
-          </p>
-          <Link 
-            to="/contact"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent-500/25"
-          >
-            Get In Touch
-          </Link>
-        </div>
-      </div>
-    </div>
-  );
-};
 
 const App: React.FC = () => {
   return (
@@ -70,9 +17,9 @@ const App: React.FC = () => {
         <main className="relative">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<About />} />
+            {/* <Route path="/about" element={<About />} /> */}
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </main>
         

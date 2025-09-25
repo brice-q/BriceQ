@@ -1,20 +1,43 @@
 @import "tailwindcss";
 
 :root {
-  --color-dark-bg: #232f3b;
-  --color-off-white: #f0f4f8;
+  --text: #edf3f7;
+  --background: #05080b;
+  --primary: #a0bdd8;
+  --secondary: #513177;
+  --accent: #a768c0;
 }
 
 @layer utilities {
   .bg-dark-bg {
-    background-color: var(--color-dark-bg);
+    background-color: var(--background);
+  }
+
+  .bg-navbar-bg {
+    background-color: var(--background);
   }
 
   .text-off-white {
-    color: var(--color-off-white);
+    color: var(--text);
   }
 
   .border-off-white {
-    border-color: var(--color-off-white);
+    border-color: var(--text);
+  }
+
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+
+  .text-secondary {
+    color: var(--secondary);
+  }
+
+  .bg-accent {
+    background-color: var(--accent);
+  }
+
+  .text-accent {
+    color: var(--accent);
   }
 }

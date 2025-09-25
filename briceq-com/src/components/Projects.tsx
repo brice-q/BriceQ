@@ -32,6 +32,8 @@ const Projects: React.FC = () => {
                             <span className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full border border-primary-200">React</span>
                             <span className="bg-warning-100 text-warning-700 px-3 py-1 rounded-full border border-warning-200">Node.js</span>
                             <span className="bg-warning-100 text-warning-700 px-3 py-1 rounded-full border border-warning-200">TailWindCSS</span>
+                            <span className="bg-warning-100 text-warning-700 px-3 py-1 rounded-full border border-warning-200">Python</span>
+
                         </div>
                     </div>
                 </div>

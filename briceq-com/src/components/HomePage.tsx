@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
         {/* Left side - Image */}
         <div className="flex-1 flex justify-center">
           <img
-            src="/src/assets/disc.png"
+            src="/disc.png"
             alt="Profile"
             className="w-64 h-64 object-cover rounded-full shadow-lg"
           />

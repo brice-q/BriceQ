@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Projects: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen px-6 pt-2">

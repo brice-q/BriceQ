@@ -1,6 +1,3 @@
-import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
-
 const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center px-6 pt-20">

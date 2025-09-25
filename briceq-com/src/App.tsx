@@ -2,10 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import About from "./components/About";
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Modern Projects component with light theme
 

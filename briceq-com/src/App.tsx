@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import Projects from "./components/Projects";
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Modern Projects component with light theme
 

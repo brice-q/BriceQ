@@ -2,7 +2,7 @@
   "name": "briceq-com",
   "homepage": "https://briceq.com",
   "private": false,
-  "version": "1.5.0",
+  "version": "1.8.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

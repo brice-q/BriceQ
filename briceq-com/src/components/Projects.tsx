@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
                 {/* Subtitle */}
                 <div className="animate-fade-in-up delay-500 mb-12">
                     <p className="text-xl text-off-white max-w-2xl mx-auto leading-relaxed mb-4">
-                        Explore my portfolio of innovative web applications and creative solutions.
+                        Explore my portfolio of various projects.
                     </p>
                     <p className="text-lg text-off-white">
                         Each project represents a unique challenge and learning experience.

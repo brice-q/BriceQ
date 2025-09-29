@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={toggleMobileMenu}
-        className="fixed top-4 left-4 z-50 md:hidden bg-navbar-bg backdrop-blur-md p-2 rounded-lg shadow-lg border border-primary/10"
+        className="fixed top-4 left-4 z-50 md:hidden bg-navbar-bg backdrop-blur-md p-2 rounded-lg shadow-lg border border-[#0ea5e9]/40"
         aria-label="Toggle mobile menu"
       >
         <div className="w-6 h-6 flex flex-col justify-center items-center">
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
       )}
 
       {/* Navigation */}
-      <nav className={`fixed top-0 left-0 h-full w-35 bg-navbar-bg backdrop-blur-md shadow-2xl shadow-secondary/20 border-r border-primary/10 z-50 transition-transform duration-300 ${
+      <nav className={`fixed top-0 left-0 h-full w-35 bg-navbar-bg backdrop-blur-md shadow-2xl shadow-secondary/20 border-r border-[#0ea5e9]/40 z-50 transition-transform duration-300 ${
         isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
       } md:translate-x-0`}>
         <div className="flex flex-col justify-center space-y-6 items-center pb-20 px-6 h-full">

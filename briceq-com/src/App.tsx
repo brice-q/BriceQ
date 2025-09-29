@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App: React.FC = () => {
   return (
-    <div className="relative bg-dark-bg min-h-screen overflow-hidden font-sans text-off-white">
+    <div className="relative bg-dark-bg/80 min-h-screen overflow-hidden font-sans text-off-white">
       <Router>
         <Navbar />
         <main className="relative">
